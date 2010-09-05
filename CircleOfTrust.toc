@@ -1,0 +1,18 @@
+## Interface: 30300
+
+## Title: Cirlce of Trust
+## Notes: Auto invite/accept add-on
+## Author: Nifty
+## Version: Alpha
+
+## OptionalDeps: tekDebug, tekErr
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+LibStub.lua
+tekKonfigAboutPanel.lua
+
+EventDispatcher.lua
+
+CircleOfTrust.lua
